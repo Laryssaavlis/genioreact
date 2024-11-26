@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-image: url("/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sevillana", cursive;
+  font-size: 62px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.image {
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=LampadaGenio.css.map */
